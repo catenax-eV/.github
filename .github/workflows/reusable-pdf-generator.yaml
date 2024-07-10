@@ -2,13 +2,12 @@ name: 'Convert Markdown to PDF'
 
 on:
   workflow_call:
-
-inputs:
-  folder:
-    description: 'Path to the folder containing Markdown files'
-    required: true
-    default: 'meetings'
-outputs: {}
+    inputs:
+      folder:
+        description: 'Path to the folder containing Markdown files'
+        required: true
+        default: 'meetings'
+    outputs: {}
 jobs:
   create-pdfs:
     name: Create pdfs
