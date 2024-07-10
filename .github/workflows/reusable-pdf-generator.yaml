@@ -8,61 +8,63 @@ inputs:
     required: true
     default: 'meetings'
 outputs: {}
-runs:
-  using: 'composite'
-  steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+jobs:
+  create-pdfs:
+    name: Create pdfs
+    runs-on: ubuntu-latest
+      steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+        - name: Set up Python
+          uses: actions/setup-python@v2
+          with:
+            python-version: '3.x'
 
-    - name: Install Pandoc
-      run: sudo apt-get install pandoc -y
+        - name: Install Pandoc
+          run: sudo apt-get install pandoc -y
 
-    - name: Install Dependencies
-      run: |
-        pip install pypandoc
-        pip install pyyaml
+        - name: Install Dependencies
+          run: |
+            pip install pypandoc
+            pip install pyyaml
 
-    - name: Convert Markdown to PDF
-      run: |
-        mkdir -p output
-        for file in ${{ inputs.folder }}/*.md; do
-          filename=$(basename "$file" .md)
-          pandoc "$file" -o "output/$filename.pdf"
-        done
+        - name: Convert Markdown to PDF
+          run: |
+            mkdir -p output
+            for file in ${{ inputs.folder }}/*.md; do
+              filename=$(basename "$file" .md)
+              pandoc "$file" -o "output/$filename.pdf"
+            done
 
-    - name: Check if pdf-branch exists
-      id: check-branch
-      run: |
-        if git ls-remote --heads origin pdf-branch; then
-          echo "::set-output name=branch_exists::true"
-        else
-          echo "::set-output name=branch_exists::false"
-        fi
+        - name: Check if pdf-branch exists
+          id: check-branch
+          run: |
+            if git ls-remote --heads origin pdf-branch; then
+              echo "::set-output name=branch_exists::true"
+            else
+              echo "::set-output name=branch_exists::false"
+            fi
 
-    - name: Create pdf-branch if it does not exist
-      if: steps.check-branch.outputs.branch_exists == 'false'
-      run: |
-        git checkout -b pdf-branch
-        git push --set-upstream origin pdf-branch
+        - name: Create pdf-branch if it does not exist
+          if: steps.check-branch.outputs.branch_exists == 'false'
+          run: |
+            git checkout -b pdf-branch
+            git push --set-upstream origin pdf-branch
 
-    - name: Commit and Push PDFs
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        if [ "$(git branch --list pdf-branch)" ]; then
-          git checkout pdf-branch
-        else
-          git checkout -b pdf-branch
-        fi
-        cp -r output/* .
-        git add *.pdf
-        DATE=$(date +'%Y-%m-%d')
-        git commit -m "Add converted PDF files on $DATE"
-        git push --force --set-upstream origin pdf-branch
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        - name: Commit and Push PDFs
+          run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            if [ "$(git branch --list pdf-branch)" ]; then
+              git checkout pdf-branch
+            else
+              git checkout -b pdf-branch
+            fi
+            cp -r output/* .
+            git add *.pdf
+            DATE=$(date +'%Y-%m-%d')
+            git commit -m "Add converted PDF files on $DATE"
+            git push --force --set-upstream origin pdf-branch
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
