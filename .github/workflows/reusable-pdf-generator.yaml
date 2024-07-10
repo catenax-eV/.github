@@ -6,6 +6,7 @@ on:
       folder:
         description: 'Path to the folder containing Markdown files'
         required: true
+        type: string
         default: 'meetings'
     outputs: {}
 jobs:
