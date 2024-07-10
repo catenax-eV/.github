@@ -1,7 +1,8 @@
 name: 'Convert Markdown to PDF'
-description: 'A GitHub Action to convert Markdown files to PDF and push to a specific branch'
+
 on:
   workflow_call:
+
 inputs:
   folder:
     description: 'Path to the folder containing Markdown files'
