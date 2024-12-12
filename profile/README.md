@@ -15,20 +15,20 @@
 
 ### Documentation
 
-- [**cx-operating-model-collab**](https://github.com/catenax-eV/cx-operating-model-collab) - private (*This a fork for collaboration on the operating model with other Committees and Expert Groups in the Catena-X association*)
-- [**cx-certification**](https://github.com/catenax-eV/cx-certification) - private (*No description provided*)
-- [**cx-regulatory-framework**](https://github.com/catenax-eV/cx-regulatory-framework) - private (*No description provided*)
-- [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*No description provided*)
-- [**cx-working-model**](https://github.com/catenax-eV/cx-working-model) - private (*No description provided*)
+- [**cx-operating-model-collab**](https://github.com/catenax-eV/cx-operating-model-collab) - private (*This a fork for collaboration on the Operating Model with other Committees and Expert Groups in the Catena-X association*)
+- [**cx-certification**](https://github.com/catenax-eV/cx-certification) - private (*Certification*)
+- [**cx-regulatory-framework**](https://github.com/catenax-eV/cx-regulatory-framework) - private (*Regulatory Framework*)
+- [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*Operating Model*)
+- [**cx-working-model**](https://github.com/catenax-eV/cx-working-model) - private (*Working Model*)
 
 ### Committee and Expert Groups
 
-- [**cx-architecture**](https://github.com/catenax-eV/cx-architecture) - private (*No description provided*)
-- [**cx-network-service**](https://github.com/catenax-eV/cx-network-service) - private (*No description provided*)
-  - [**cx-ex-ssi**](https://github.com/catenax-eV/cx-ex-ssi) - private (*No description provided*)
-  - [**cx-ex-dataspace-connectivity**](https://github.com/catenax-eV/cx-ex-dataspace-connectivity) - private (*No description provided*)
-  - [**cx-ex-bpdm**](https://github.com/catenax-eV/cx-ex-bpdm) - private (*No description provided*)
-  - [**cx-ex-comp-cert-management**](https://github.com/catenax-eV/cx-ex-comp-cert-management) - private (*No description provided*)
+- [**cx-architecture**](https://github.com/catenax-eV/cx-architecture) - private (*Architecture Management Committee*)
+- [**cx-network-service**](https://github.com/catenax-eV/cx-network-service) - private (*Network Services Committee*)
+  - [**cx-ex-ssi**](https://github.com/catenax-eV/cx-ex-ssi) - private (*Self-Sovereign Identity*)
+  - [**cx-ex-dataspace-connectivity**](https://github.com/catenax-eV/cx-ex-dataspace-connectivity) - private (*Dataspace Connectivity*)
+  - [**cx-ex-bpdm**](https://github.com/catenax-eV/cx-ex-bpdm) - private (*Business Partner Data Management*)
+  - [**cx-ex-comp-cert-management**](https://github.com/catenax-eV/cx-ex-comp-cert-management) - private (*Company Certificate Management*)
 - [**cx-com-pqr**](https://github.com/catenax-eV/cx-com-pqr) - private (*No description provided*)
   - [**cx-ex-traceability**](https://github.com/catenax-eV/cx-ex-traceability) - private (*Expert Group-Repository for Traceability*)
   - [**cx-ex-dcm**](https://github.com/catenax-eV/cx-ex-dcm) - private (*Repository of the DCM Expert Group, governing standards CX-0128 and CX-0146*)
