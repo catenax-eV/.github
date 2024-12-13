@@ -18,7 +18,6 @@
 - [**cx-operating-model-collab**](https://github.com/catenax-eV/cx-operating-model-collab) - private (*This a fork for collaboration on the Operating Model with other Committees and Expert Groups in the Catena-X association*)
 - [**cx-certification**](https://github.com/catenax-eV/cx-certification) - private (*Certification*)
 - [**cx-regulatory-framework**](https://github.com/catenax-eV/cx-regulatory-framework) - private (*Regulatory Framework*)
-- [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*Operating Model*)
 - [**cx-working-model**](https://github.com/catenax-eV/cx-working-model) - private (*Working Model*)
 
 ### Committee and Expert Groups
@@ -40,11 +39,12 @@
   - [**cx-ex-pcf-methodology-verification**](https://github.com/catenax-eV/cx-ex-pcf-methodology-verification) - private (*PCF Methodology & Verification*)
 - [**cx-com-industry-core**](https://github.com/catenax-eV/cx-com-industry-core) - private (*Industry Core Committee*)
   - [**cx-ex-digital-twins**](https://github.com/catenax-eV/cx-ex-digital-twins) - private (*Digital Twins*)
+- [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*Operating Model*)
+  - [**cx-ex-data-sovereignty**](https://github.com/catenax-eV/cx-ex-data-sovereignty) - private (*No description provided*)
 
 ### Miscilanous
 
 - [**cx-wg-backward-compatibility**](https://github.com/catenax-eV/cx-wg-backward-compatibility) - private (*No description provided*)
-- [**cx-ex-data-sovereignty**](https://github.com/catenax-eV/cx-ex-data-sovereignty) - private (*No description provided*)
 
 ### Catena-X NEXT
 
