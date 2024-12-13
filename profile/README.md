@@ -39,8 +39,8 @@
   - [**cx-ex-pcf-methodology-verification**](https://github.com/catenax-eV/cx-ex-pcf-methodology-verification) - private (*PCF Methodology & Verification*)
 - [**cx-com-industry-core**](https://github.com/catenax-eV/cx-com-industry-core) - private (*Industry Core Committee*)
   - [**cx-ex-digital-twins**](https://github.com/catenax-eV/cx-ex-digital-twins) - private (*Digital Twins*)
-- [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*Operating Model*)
-  - [**cx-ex-data-sovereignty**](https://github.com/catenax-eV/cx-ex-data-sovereignty) - private (*No description provided*)
+- [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*Dataspace Operating Model Committee*)
+  - [**cx-ex-data-sovereignty**](https://github.com/catenax-eV/cx-ex-data-sovereignty) - private (*Data Sovereignty*)
 
 ### Miscilanous
 
