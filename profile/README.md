@@ -11,7 +11,7 @@
 - [**houston-api**](https://github.com/catenax-eV/houston-api) - private (*No description provided*)
 - [**product-standardization-prod**](https://github.com/catenax-eV/product-standardization-prod) - private (*No description provided*)
 - [**cx-standardization-policy**](https://github.com/catenax-eV/cx-standardization-policy) - private (*No description provided*)
-- [**cx-modeling-governance**](https://github.com/catenax-eV/cx-modeling-governance) - private (*No description provided*)
+- [**cx-com-tc4m**](https://github.com/catenax-eV/cx-com-tc4m) - private (*No description provided*)
 
 ### Documentation
 
