@@ -5,7 +5,7 @@
 
 ## List of repositories
 
-### Standartization
+### Standardization
 
 - [**product-standardization-dev**](https://github.com/catenax-eV/product-standardization-dev) - private (*No description provided*)
 - [**houston-api**](https://github.com/catenax-eV/houston-api) - private (*No description provided*)
