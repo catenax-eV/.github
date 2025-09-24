@@ -43,6 +43,7 @@ jobs:
           mkdir -p output
           for file in ${{ inputs.folder }}/*.md; do
             filename=$(basename "$file" .md)
+            echo "Converting $file to output/$filename.pdf"
             pandoc "$file" -o "output/$filename.pdf"
           done
 
