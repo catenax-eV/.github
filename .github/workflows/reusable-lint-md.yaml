@@ -16,4 +16,5 @@ jobs:
         config: '.markdownlint.yaml'
         globs: |
           docs/**/*.md
+          standards/**/*.md
   
