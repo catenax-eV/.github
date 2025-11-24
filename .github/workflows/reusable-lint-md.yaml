@@ -17,4 +17,5 @@ jobs:
         globs: |
           docs/**/*.md
           standards/**/*.md
+          !standards/_deprecated/**/*.md
   
