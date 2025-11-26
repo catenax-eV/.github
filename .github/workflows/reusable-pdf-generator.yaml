@@ -41,11 +41,14 @@ jobs:
       - name: Convert Markdown to PDF
         run: |
           mkdir -p output
-          for file in ${{ inputs.folder }}/*.md; do
+          cur=$(pwd)
+          cd meetings
+          for file in *.md; do
             filename=$(basename "$file" .md)
             echo "Converting $file to output/$filename.pdf"
-            pandoc "$file" -o "output/$filename.pdf"
+            pandoc "$file" -o "$cur/output/$filename.pdf"
           done
+          cd "$cur"
 
       - name: Check if pdf-branch exists
         id: check-branch
