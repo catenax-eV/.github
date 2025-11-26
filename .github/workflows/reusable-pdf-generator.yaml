@@ -42,7 +42,7 @@ jobs:
         run: |
           mkdir -p output
           cur=$(pwd)
-          cd meetings
+          cd ${{ inputs.folder }}
           for file in *.md; do
             filename=$(basename "$file" .md)
             echo "Converting $file to output/$filename.pdf"
