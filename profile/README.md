@@ -6,16 +6,11 @@
 > [!NOTE]
 > Not every member has automatic read access to all repositories. Every Expert Group team and committee has write access to their dedicated repository. If you don't have access or are missing something, please reach out to:
 >
-> <table>
->   <tr>
->     <td><img src="https://avatars.githubusercontent.com/u/84396022?v=4" width="80" style="border-radius:50%" alt="Stephan Bauer"/></td>
->     <td>
->       <strong>Stephan Bauer</strong><br/>
->       📧 <a href="mailto:stephan.bauer@catena-x.net">stephan.bauer@catena-x.net</a><br/>
->       🐙 <a href="https://github.com/stephanbcbauer">@stephanbcbauer</a>
->     </td>
->   </tr>
-> </table>
+> [![Stephan Bauer](https://avatars.githubusercontent.com/u/84396022?s=80&v=4)](https://github.com/stephanbcbauer)
+>
+> **Stephan Bauer**
+> 📧 [stephan.bauer@catena-x.net](mailto:stephan.bauer@catena-x.net)
+> [![GitHub](https://img.shields.io/badge/stephanbcbauer-181717?style=flat&logo=github&logoColor=white)](https://github.com/stephanbcbauer)
 
 ## List of repositories
 
