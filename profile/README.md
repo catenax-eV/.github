@@ -7,6 +7,7 @@
 
 ### Standardization
 
+- [**cx-odrl-profile**](https://github.com/catenax-eV/cx-odrl-profile) - public (*Catena-X ODRL-Profile and additional contract modules including leftOperands, rightOperands and further details to use ODRL in Catena-X*)
 - [**product-standardization-dev**](https://github.com/catenax-eV/product-standardization-dev) - private (*No description provided*)
 - [**houston-api**](https://github.com/catenax-eV/houston-api) - private (*No description provided*)
 - [**product-standardization-prod**](https://github.com/catenax-eV/product-standardization-prod) - private (*No description provided*)
@@ -15,6 +16,7 @@
 
 ### Documentation
 
+- [**cx-resources**](https://github.com/catenax-eV/cx-resources) - public (*Various Catena-X resources including labels and brand governance materials*)
 - [**cx-operating-model-collab**](https://github.com/catenax-eV/cx-operating-model-collab) - private (*This a fork for collaboration on the Operating Model with other Committees and Expert Groups in the Catena-X association*)
 - [**cx-certification**](https://github.com/catenax-eV/cx-certification) - private (*Certification*)
 - [**cx-regulatory-framework**](https://github.com/catenax-eV/cx-regulatory-framework) - private (*Regulatory Framework*)
@@ -43,7 +45,7 @@
 - [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*Dataspace Operating Model Committee*)
   - [**cx-ex-data-sovereignty**](https://github.com/catenax-eV/cx-ex-data-sovereignty) - private (*Data Sovereignty*)
 
-### Miscilanous
+### Miscellaneous
 
 - [**cx-wg-backward-compatibility**](https://github.com/catenax-eV/cx-wg-backward-compatibility) - private (*No description provided*)
 
@@ -54,6 +56,8 @@
 
 ### Infrastructure
 
+- [**example-edc-setup**](https://github.com/catenax-eV/example-edc-setup) - public (*Example EDC setup with two connectors for testing purposes, based on the Tractus-X umbrella Helm chart*)
+- [**infrastructure-tools**](https://github.com/catenax-eV/infrastructure-tools) - public (*A set of tools useful for product-teams*)
 - [**sig-infra**](https://github.com/catenax-eV/sig-infra) - private (*No description provided*)
 - [**test-data-generator**](https://github.com/catenax-eV/test-data-generator) - private (*No description provided*)
 - [**cloud-infra**](https://github.com/catenax-eV/cloud-infra) - private (*No description provided*)
