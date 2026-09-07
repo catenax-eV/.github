@@ -24,6 +24,7 @@
 
 - [**cx-architecture**](https://github.com/catenax-eV/cx-architecture) - private (*Architecture Management Committee*)
   - [**cx-ex-network-of-networks**](https://github.com/catenax-eV/cx-ex-network-of-networks) - private (*Network Of Networks - Interoperability*)
+    [**cx-ex-trusted-ai**](https://github.com/catenax-eV/cx-ex-trusted-ai) - private (*Trusted AI*)
 - [**cx-network-service**](https://github.com/catenax-eV/cx-network-service) - private (*Network Services Committee*)
   - [**cx-ex-ssi**](https://github.com/catenax-eV/cx-ex-ssi) - private (*Self-Sovereign Identity*)
   - [**cx-ex-dataspace-connectivity**](https://github.com/catenax-eV/cx-ex-dataspace-connectivity) - private (*Dataspace Connectivity*)
