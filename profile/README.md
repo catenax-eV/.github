@@ -5,8 +5,17 @@
 
 ## List of repositories
 
+> Repositories marked as *private* are only accessible to members of the Catena-X association.
+
+### Website and organization
+
+- [**catenax-ev.github.io**](https://github.com/catenax-eV/catenax-ev.github.io) - public (*Source of the Catena-X library at [catenax-ev.github.io](https://catenax-ev.github.io/)*)
+- [**.github**](https://github.com/catenax-eV/.github) - public (*This organization profile and reusable GitHub Actions workflows*)
+- [**cx-resources**](https://github.com/catenax-eV/cx-resources) - public (*Shared resources of the Catena-X association*)
+
 ### Standardization
 
+- [**cx-odrl-profile**](https://github.com/catenax-eV/cx-odrl-profile) - public (*Contains the Catena-X ODRL-Profile and the additional contract modules in form of leftOperands, rightOperands and further details to use ODRL in Catena-X.*)
 - [**product-standardization-dev**](https://github.com/catenax-eV/product-standardization-dev) - private (*No description provided*)
 - [**houston-api**](https://github.com/catenax-eV/houston-api) - private (*No description provided*)
 - [**product-standardization-prod**](https://github.com/catenax-eV/product-standardization-prod) - private (*No description provided*)
@@ -44,7 +53,7 @@
 - [**cx-operating-model**](https://github.com/catenax-eV/cx-operating-model) - private (*Dataspace Operating Model Committee*)
   - [**cx-ex-data-sovereignty**](https://github.com/catenax-eV/cx-ex-data-sovereignty) - private (*Data Sovereignty*)
 
-### Miscilanous
+### Miscellaneous
 
 - [**cx-wg-backward-compatibility**](https://github.com/catenax-eV/cx-wg-backward-compatibility) - private (*No description provided*)
 
@@ -55,6 +64,8 @@
 
 ### Infrastructure
 
+- [**infrastructure-tools**](https://github.com/catenax-eV/infrastructure-tools) - public (*This repository holds a set of tools which might be useful for the product-teams*)
+- [**example-edc-setup**](https://github.com/catenax-eV/example-edc-setup) - public (*Example setup of an Eclipse Dataspace Connector*)
 - [**sig-infra**](https://github.com/catenax-eV/sig-infra) - private (*No description provided*)
 - [**test-data-generator**](https://github.com/catenax-eV/test-data-generator) - private (*No description provided*)
 - [**cloud-infra**](https://github.com/catenax-eV/cloud-infra) - private (*No description provided*)
